@@ -49,7 +49,7 @@ export async function POST(req: Request) {
         negative_prompt: "",
         seed: -1
     },
-    Prompt: prompt,
+    prompt: prompt,
 } as any); // Cast to `any` to bypass TypeScript type issues if necessary
 
 
